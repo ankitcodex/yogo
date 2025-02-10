@@ -1,0 +1,22 @@
+/*************
+ 10 FEATURES
+**************/
+.feature-grid {
+	transition: all 0.5s ease;
+	.icon-wrap {
+		img {
+			width: 70px;
+		}
+	}
+	&:hover {
+		transform: translateY(-5px);
+	}
+}
+.features {
+	.cdx-shap {
+		li {
+			top: 7%;
+			left: 4%;
+		}
+	}
+}
