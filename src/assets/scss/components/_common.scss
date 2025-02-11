@@ -1,0 +1,38 @@
+/***********
+  23 COMMON
+*************/
+.title{
+	margin-bottom:50px;
+	text-align: center;
+	>span{
+		text-transform: uppercase;
+		font-weight: 600;	
+		color: $primary;
+		letter-spacing: 3px;
+		position: relative;
+	}
+	h2{
+		margin-top: 5px;
+	}
+}
+.space-py-100{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.space-pt-100{
+	padding-top: 100px;
+}
+.space-pb-100{
+	padding-bottom: 100px;
+}
+section{
+	position: relative;
+	overflow: hidden;
+}
+.cdx-shap{
+	li{
+		opacity: 0.1;
+		position: absolute;
+		animation: fullrotate 45s linear infinite;
+	}
+}

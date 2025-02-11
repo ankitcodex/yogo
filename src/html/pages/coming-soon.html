@@ -1,0 +1,100 @@
+@@include("../common/mainfiles.html")
+
+<head>
+
+  @@include("../common/metafiles.html")
+
+  @@include("../common/linkfiles.html")
+
+  <!-- Custom Css-->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- coming soon start-->
+  <section class="coming-soon py-5 vh-100 d-md-flex align-items-center overflow-auto">
+    <div class="container position-relative">
+      <div class="row">
+        <div class="col-12 col-md-9 col-lg-7 mx-auto" data-sal-delay="100" data-sal="fade-in" data-sal-duration="800">
+          <div class="coming-detail text-white text-center">
+            <h1 class="mb-3">We&apos;re Coming Soon</h1>
+            <p class="fs-5 text-white">
+              Our website is under construction. We&apos;ll be here soon with our new awesome site,
+              subscribe to be notified.
+            </p>
+            <div class="countdown-wrap mt-4">
+              <div class="row gy-4">
+                <div class="col-sm-3 col-6">
+                  <div class="countdown-grid text-white bg-primary rounded-3 p-4">
+                    <h2 class="mb-0 day">180</h2>
+                    <h3 class="mb-0 fs-6">Days</h3>
+                  </div>
+                </div>
+                <div class="col-sm-3 col-6">
+                  <div class="countdown-grid text-white bg-primary rounded-3 p-4">
+                    <h2 class="mb-0 hour">06</h2>
+                    <h3 class="mb-0 fs-6">Hours</h3>
+                  </div>
+                </div>
+                <div class="col-sm-3 col-6">
+                  <div class="countdown-grid text-white bg-primary rounded-3 p-4">
+                    <h2 class="mb-0 minute">02</h2>
+                    <h3 class="mb-0 fs-6">Minutes</h3>
+                  </div>
+                </div>
+                <div class="col-sm-3 col-6">
+                  <div class="countdown-grid text-white bg-primary rounded-3 p-4">
+                    <h2 class="mb-0 second">42</h2>
+                    <h3 class="mb-0 fs-6">Seconds</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <form class="newsletter-form position-relative w-75 mx-auto mt-5">
+              <div class="input-group rounded-2 overflow-hidden">
+                <input class="form-control" type="email" placeholder="Enter your email" name="email" required>
+                <button class="btn btn-primary rounded-0" type="submit">Subscribe</button>
+              </div>
+            </form>
+            <ul class="social-list d-flex justify-content-center mt-5">
+              <li>
+                <a class="d-flex align-items-center justify-content-center rounded-circle" href="#!" aria-label="facebook">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="d-flex align-items-center justify-content-center rounded-circle" href="#!" aria-label="twitter">
+                  <i class="bi bi-twitter-x"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="d-flex align-items-center justify-content-center rounded-circle" href="#!" aria-label="instagram">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="d-flex align-items-center justify-content-center rounded-circle" href="#!" aria-label="linkedin">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- coming soon end-->
+
+  @@include("../common/scriptfiles.html")
+
+  <!-- counter down js-->
+  <script src="../assets/js/countdown.js"></script>
+
+  <!-- App js -->
+  <script src="../assets/js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/**************
+ 13 YOGA CLASS 
+***************/
+.class-grid {
+	transition: all 0.5s ease;
+}
+.time-schedule {
+	tr {
+		white-space: nowrap;
+	}
+	table {
+		background-color: var(--#{$prefix}cardbg-color);
+		margin-bottom: unset;
+		border-collapse:separate;
+		border-spacing: 10px;
+		th {				
+			font-family: $font-jost;		
+			letter-spacing: 0.03em;
+			vertical-align: middle;
+			img {
+				width: 40px;
+			}
+		}
+		tr {		
+			td {						
+				vertical-align: middle;			
+				transition: all 0.5s ease;
+				&.active,
+				&:hover {
+					border-color: $primary !important;
+				}						
+				&:first-child {				
+					font-family: $font-jost;				
+					letter-spacing: 0.03em;				
+				}
+			}
+		}
+	}
+	.cdx-shap {
+		li {
+			top: 10%;
+			left: 10%;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+/***************
+ 29 Landing pages 
+****************/
+.intro {
+	background-image: url("../images/landing/demo/bg.webp");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba($black, 0.8);
+	}
+	.intro-contain {
+		height: calc(100vh - 101px);
+	}
+}
+/* DEMO */
+.demo-grid {
+	.img-wrap {	
+		img{
+			filter: grayscale(1);
+			transition: all 0.5s ease;
+		}	
+	}	
+	&:hover {
+		.img-wrap {	
+			img{
+				filter: grayscale(0);
+				transform: scale(1.02);
+			}	
+		}	
+	}
+}
+/* FEATHURES */
+.feathure-grid {
+	transition: all 0.5s ease;
+	&:hover {
+		box-shadow: 0 0 15px 5px rgba($black, 7%);
+	}
+	.icon-wrap {
+		width: 75px;
+		height: 75px;		
+		background-color: rgba($primary-rgb, 0.1);
+		i {
+			color: $primary;
+		}
+		img {
+			width: auto;
+			height: 35px;
+		}
+	}	
+}

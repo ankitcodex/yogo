@@ -1,0 +1,12 @@
+/***************
+ 05 ACCORDION
+****************/
+.accordion-button {
+	&:not(.collapsed) {
+		border-bottom: 1px solid var(--#{$prefix}border-color);	
+	}
+    &:not(.collapsed) {
+        color: $primary;
+        background-color: var(--#{$prefix}cardbg-color);			
+    }
+}

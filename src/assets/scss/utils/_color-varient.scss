@@ -1,0 +1,42 @@
+// /*******************
+//   Color Varient
+// ********************/
+// $color1:#174383;
+// $color2:#e74c3c;
+// $color3:#2980b9;
+// $color4:#2c3e50;
+// $color5:#16a085;
+// $color6:#432d29;
+// $datatheme-colors:(
+//   'color-1': (
+//     primary:$color1
+//   ),
+//   'color-2': (
+//     primary:$color2
+//   ),
+//   'color-3': (
+//     primary:$color3
+//   ),
+//   'color-4': (
+//     primary:$color4
+//   ), 
+//   'color-5': (
+//     primary:$color5
+//   ),
+//   'color-6': (
+//     primary:$color6
+//   ) 
+// );
+// @each $color, $value in $datatheme-colors{
+//   [data-theme-color=#{$color}]{   
+//     $primary: map-get($value, "primary");
+//     $rgb-color: to-rgb($primary);
+//     $primary-darken: darken($primary,2%);
+//     --#{$prefix}primary: #{$primary};
+//     --#{$prefix}primary-rgb: #{$rgb-color};
+//     --#{$prefix}primary-darken:#{$primary-darken};   
+//   }
+//   $primary: var(--#{$prefix}primary); 
+//   $primary-rgb: var(--#{$prefix}primary-rgb);
+//   $primary-darken: var(--#{$prefix}primary-darken);
+// }

@@ -1,0 +1,98 @@
+@@include("../common/mainfiles.html")
+
+<head>
+
+  @@include("../common/metafiles.html")
+
+  @@include("../common/linkfiles.html")
+
+  <!-- Custom Css-->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+
+  <!-- authentication start-->
+  <section class="py-4 vh-100 d-lg-flex align-items-center overflow-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="codex-authbox border p-4 rounded-3">
+            <div class="auth-header text-center mb-3">
+              <a href="index.html" class="codex-brand mb-2 d-inline-block">
+                <img class="img-fluid align-middle" src="../assets/images/logo/favicon.webp" alt="">
+                <span class="fs-2 fw-bold align-middle lh-1 ms-1">Yogo</span>
+              </a>
+              <h3 class="text-muted mt-2">Create your account</h3>
+              <h4 class="fs-6">
+                Already have an account? 
+                <a class="text-primary" href="login.html">login in here</a>
+              </h4>
+            </div>
+            <form action="#">
+              <div class="row gy-3">
+                <div class="col-md-12">
+                  <label class="form-label">Name</label>
+                  <input class="form-control" type="text" placeholder="Enter Your Name" required>  
+                </div>
+                <div class="col-md-12">
+                  <label class="form-label">Email</label>
+                  <input class="form-control" type="email" placeholder="Enter Your Email" required>
+                </div>
+                <div class="col-md-12">
+                  <label class="form-label">Mobile No.</label>
+                  <input class="form-control" type="text" placeholder="Enter Your Phone Number" required>
+                </div>
+                <div class="col-md-12">
+                  <label class="form-label">Password</label>
+                  <div class="input-group">
+                    <input class="form-control showhide-password" type="password" placeholder="Enter Your Password"
+                      required="">
+                    <span class="input-group-text text-light bg-transparent toggle-show bi bi-eye"></span>
+                  </div>  
+                </div>
+                <div class="col-md-12">
+                  <div class="form-check custom-chek">
+                    <input class="form-check-input" id="agree" type="checkbox" value="" required="">
+                    <label class="form-check-label" for="agree">I Agree Terms and conditions</label>
+                  </div>
+                  <button class="btn btn-primary mt-4 d-block w-100 fs-5" type="submit">
+                    <i class="bi bi-send me-2"></i> Register
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div class="auth-footer mt-3">
+              <h5 class="text-muted text-center">Or Register In With</h5>
+               <ul class="d-flex align-items-center justify-content-center mt-3">
+                  <li>
+                    <a class="bg-fb py-2 px-4 fs-6 fw-semibold rounded-pill d-inline-block" href="#!">
+                      <img class="img-fluid wd-15 me-2" src="../assets/images/auth/1.webp" alt="">
+                      Facebook
+                    </a>
+                  </li>
+                  <li class="ms-3">
+                    <a class="bg-google py-2 px-4 fs-6 fw-semibold rounded-pill d-inline-block" href="#!"> 
+                      <img class="img-fluid wd-15 me-2" src="../assets/images/auth/2.webp" alt="">
+                      Google
+                    </a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- authentication end--> 
+
+  @@include("../common/scriptfiles.html")
+
+  <!-- App js -->
+  <script src="../assets/js/app.js"></script>
+
+</body>
+
+</html>

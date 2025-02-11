@@ -1,0 +1,19 @@
+/***********
+ 12 COUNTER 
+************/
+.codex-counter {
+	.row {	
+		>div {
+			&:nth-child(n+2) {
+				border-left: 1px solid rgba($white, 0.2);
+			}		
+		}
+	}
+}
+.counter-grid {	
+	.icon-wrap {
+		img {
+			width: 55px;
+		}
+	}
+}

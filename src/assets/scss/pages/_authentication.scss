@@ -1,0 +1,22 @@
+/*******************
+ 25 AUTHENTICATION 
+********************/
+.codex-authbox{
+    .bg-fb{
+        color: $white !important;
+        background-color: $blue;
+    }
+    .bg-google{
+		color: var(--#{$prefix}menulink-color);
+		border:1px solid var(--#{$prefix}border-color);        
+    }
+	.auth-icon{	
+		width: 90px;
+		height: 90px;
+		background-color: rgba($primary-rgb,0.08);
+		i{
+			font-size:45px;
+			color: $primary;
+		} 
+	}	
+}

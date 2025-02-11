@@ -1,0 +1,63 @@
+/*====================================================================
+Template Name: Yogo –  Responsive Yoga HTML Template
+Author: dreamzontheme
+Contact: codnictheme@gmail.com
+====================================================================*/
+
+/*** 01 VARIABLES ***/
+/*** 02 BUTTON ***/
+/*** 03 FORM ***/
+/*** 04 CARD ***/
+/*** 05 ACCORDION ***/
+/*** 06 HEADER ***/
+/*** 07 FOOTER ***/
+/*** 08 BREADCRUMB ***/
+/*** 09 HERO SLIDER ***/
+/*** 10 FEATURES ***/
+/*** 11 ABOUT US ***/
+/*** 12 COUNTER ***/
+/*** 13 YOGA CLASS ***/
+/*** 14 PRICING TABLE ***/
+/*** 15 GALLERY ***/
+/*** 16 VIDEO BANNER  ***/
+/*** 17 TEAM ***/
+/*** 18 TRAINING ***/
+/*** 19 TESTIMONIAL ***/
+/*** 20 LOADER ***/
+/*** 21 SCROLL TOP ***/
+/*** 22 CUSTOMIZER ***/
+/*** 23 COMMON ***/
+/*** 24 BLOG PAGES ***/
+/*** 25 AUTHENTICATION ***/
+/*** 26 CONTACT US ***/
+/*** 27 COMING SOON ***/
+/*** 28 PRIVECY POLICY ***/
+/*** 29 Landing pages ***/
+/*** 30 RESPONSIVE ***/
+
+@charset "UTF-8";
+
+// Configuration
+@import "vendor/bootstrap/functions";
+@import "vendor/bootstrap/variables";
+@import "vendor/bootstrap/variables-dark";
+@import "./utils/variables";
+@import "./utils/variables-light";
+@import "./utils/variables-dark";
+@import "./utils/color-varient";
+@import "vendor/bootstrap/maps";
+@import "vendor/bootstrap/mixins";
+@import "vendor/bootstrap/utilities";
+
+// Base //
+@import "base/typography";
+@import "base/reset";
+
+// Components //
+@import "components/components";
+
+// Pages //
+@import "./pages/pages";
+
+// main
+@import "./layout/responsive";

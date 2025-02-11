@@ -1,0 +1,7 @@
+$wdcls: 0;
+@while $wdcls<=50 {
+  .wd-#{$wdcls} {
+    width:#{$wdcls}px;
+  }
+  $wdcls: $wdcls+5;
+}

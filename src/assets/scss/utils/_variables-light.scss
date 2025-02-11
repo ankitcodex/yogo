@@ -1,0 +1,29 @@
+/**************
+ 01 Variabels
+***************/
+:root{
+    // body
+    --#{$prefix}body-bg : #{$body-bg};
+    --#{$prefix}body-color: #{$body-color};
+    --#{$prefix}bodybg-color: #{$bodybg-color};
+    --#{$prefix}primary-darken: #{$primary-darken};
+    --#{$prefix}border-color: #{$border-color};
+
+    // Theme color
+    --#{$prefix}light: #{$light};
+
+    // Card
+    --#{$prefix}cardbg-color: #{$white};
+      
+    //Header
+    --#{$prefix}header-spacer-x: #{$header-spacer-x};
+    --#{$prefix}header-spacer-y: #{$header-spacer-y};
+    --#{$prefix}header-bg: #{$white};      
+    --#{$prefix}menulink-color: #{$black};
+    --#{$prefix}menulink-hovercolor: #{$primary};   
+
+    // Footer
+    --#{$prefix}footer-bg: #{$footer-bg};
+    
+}
+// ==================================
